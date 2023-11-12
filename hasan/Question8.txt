@@ -1,0 +1,12 @@
+"==" (Double Equal Operator)
+The double equal operator performs type coercion, meaning it converts the operands to the same type before making the comparison.
+If the operands are of different types, JavaScript will try to convert one or both of them to a common type.
+console.log(1 == '1'); // true (coercion: '1' is converted to 1)
+
+
+"===" (Triple Equal Operator):
+The triple equal operator does not perform type coercion. It checks for both value and type equality.
+If the operands are of different types, the comparison will always return false.
+console.log(1 === '1'); // false (strict equality, types are different)
+
+
